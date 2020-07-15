@@ -1,0 +1,92 @@
+@import url(https://fonts.googleapis.com/css?family=Kalam);
+#container{
+width:100%;
+text-align:center;
+display:flex;
+justify-content: center;
+}
+button{
+    width:100px;
+    height:100px;
+    margin-right:40px;
+    margin-left:40px;
+    border-radius:20%;
+    border:none;
+}   
+button::-moz-focus-inner,
+
+input[type="button"]::-moz-focus-inner
+{
+    border: none;
+}
+
+#rock{
+    background: url(/home/proto/Desktop/Projects/the_odin_project/RockPaperScissors/RPS_vol_2/icons/rock2.png) no-repeat;
+    background-size:100%;
+    transition:width 0.2s,height 0.2s;
+    
+}
+#paper{
+    background: url(/home/proto/Desktop/Projects/the_odin_project/RockPaperScissors/RPS_vol_2/icons/paper2.png)no-repeat;
+    background-size:100%;
+    transition:width 0.2s,height 0.2s;
+}
+#scissors{
+    background: url(/home/proto/Desktop/Projects/the_odin_project/RockPaperScissors/RPS_vol_2/icons/scissors2.png) no-repeat;
+    background-size:100%;
+    transition:width 0.2s,height 0.2s ease;
+}
+#rock:hover{
+    transform:scale(1.05);
+}
+#scissors:hover{
+    transform:scale(1.05);
+}
+#paper:hover{
+    transform:scale(1.05);
+}
+
+.CHOOSE{
+text-align:center;
+font-size:3em;
+font-family: "Kalam";
+font-weight: 600;
+}
+h1{
+    text-align:center;
+    font-family:"Kalam";
+    font-size:4em
+}
+.results{
+    text-align:center;
+    font-family:"Kalam";
+    font-size:1.5em;
+    height:50px;
+}
+#Names{
+    border-radius:1%;
+    border:solid 3px gray;
+    width:500px;
+    display:flex;
+    justify-content: center;
+    margin:0 auto;
+    
+}
+.Names{
+    font-weight:600;
+    text-align:center;
+    font-family:"Kalam";
+    font-size: 2em;
+    width:150px;
+    margin-left:10px;
+    margin-right:10px;
+}
+.score{
+    font-weight:600;
+    font-family:"Kalam";
+    font-size:2em;
+    text-align:center;
+    width:150px;
+    margin-left:10px;
+    margin-right:10px;
+}
